@@ -1,0 +1,22 @@
+{
+    "name": "myapp/mvc-framework",
+    "description": "A simple MVC framework in PHP",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "app/Core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sean Agustine L. Esparagoza",
+            "email": "sean.esparagoza@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
